@@ -13,11 +13,11 @@ describe('find str length', () => {
   });
 });
 
-test('"string" equals "gnirts"', () => {
+test('reverse of "hello" equals "olleh"', () => {
   expect(reverseString('hello')).toBe('olleh')
 })
 
-test('capitalize first letter in a str', () => {
+test('capitalize first letter "author" equals "Author"', () => {
   expect(capitalizeStr('author')).toBe('Author')
 })
 
